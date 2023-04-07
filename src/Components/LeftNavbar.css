@@ -1,0 +1,9 @@
+.leftNavbar ul {
+    list-style: none;
+    margin-right: 10px;
+}
+
+.leftNavbar ul li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

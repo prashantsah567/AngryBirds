@@ -1,10 +1,18 @@
 import React from "react";
+import './App.css';
+import LeftNavbar from "./Components/LeftNavbar";
+import MainContent from "./Components/MainContent";
 
 function App() {
 
   return (
-    <div className="App">
-      <p>All set</p>
+    <div className="container">
+      <div className="headers">
+        <LeftNavbar />
+      </div>
+      <div className="mainContent">
+        <MainContent />
+      </div>
     </div>
   )
 }
