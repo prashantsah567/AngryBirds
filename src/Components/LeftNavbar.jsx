@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import './LeftNavbar.css';
 
 const LeftNavbar = () =>{
@@ -6,9 +7,9 @@ const LeftNavbar = () =>{
     return(
         <div className='leftNavbar'>
             <ul>
-                <li>Home</li>
-                <li>Create a Crewmate!</li>
-                <li>Crewmate Gallery</li>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/create-content">Create a Crewmate!</Link></li>
+                <li><Link to="/view-content">Crewmate Gallery</Link></li>
             </ul>
         </div>
     );
