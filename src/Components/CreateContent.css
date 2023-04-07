@@ -6,3 +6,45 @@
 .contents{
     text-align: center;
 }
+
+.inputs{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.namePower{
+    display: grid;
+    margin-right: 5%;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    padding: 16px;
+    background-color: cornsilk;
+    transition: box-shadow 0.3s ease;
+    width: 180px;
+    height: 120px;
+}
+
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.color-card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    padding: 16px;
+    background-color: cornsilk;
+    transition: box-shadow 0.3s ease;
+    width: 100px;
+    text-align: left;
+}
+
+.btn{
+    font-size: large;
+    border-radius: 5px;
+    padding:3px;
+}

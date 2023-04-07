@@ -5,7 +5,7 @@
 
 .headers{
     width: 20%;
-    background-color: chocolate;
+    background-color: rgb(219, 113, 113);
     height: 100vh;
     position: fixed;
 }
@@ -13,6 +13,6 @@
 .mainContent{
     margin-left:20%;
     flex:1;
-    background-color: antiquewhite;
+    background-color: rgb(255, 134, 134);
     height: 100vh;
 }
