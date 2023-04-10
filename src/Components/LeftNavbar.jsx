@@ -8,8 +8,8 @@ const LeftNavbar = () =>{
         <div className='leftNavbar'>
             <ul>
                 <li><Link to="/">Home</Link></li>
-                <li><Link to="/create-content">Create a Crewmate!</Link></li>
-                <li><Link to="/view-content">Crewmate Gallery</Link></li>
+                <li><Link to="/create-content">Create an AngryBird</Link></li>
+                <li><Link to="/view-content">AngryBird Gallery</Link></li>
             </ul>
         </div>
     );

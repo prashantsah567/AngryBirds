@@ -1,0 +1,17 @@
+.cardView{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    padding: 16px;
+    background-color: cornsilk;
+    transition: box-shadow 0.3s ease;
+    width: 200px;
+    height: 160px;
+    margin: 2%;
+    text-align: center;
+}
+
+.editBtn{
+    font-size:medium;
+    background-color: white;
+    border-radius: 5px;
+}

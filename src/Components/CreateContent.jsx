@@ -38,6 +38,8 @@ const CreateContent = () =>{
         <div className="mainContent">
             <div className="contents">
                 <h1>Create a new Angry Bird</h1>
+                <br/>
+                <img src="src/assets/angrybirds.jpeg" alt="cannot load" width="300" height="120"/>
 
                 <div className="inputs">
                     <div className="namePower">
