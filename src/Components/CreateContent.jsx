@@ -30,6 +30,8 @@ const CreateContent = () =>{
         if (error) {
             console.error(error);
             return;
+        }else{
+            alert('A new AngryBird Created Successfully!');
         }
     }
 

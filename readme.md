@@ -22,7 +22,7 @@ The following **optional** features are implemented:
 
 ## GIF Walkthrough
 
-
+![Gif showing the website features](src/assets/rec1.gif)
 
 ## Notes
 
