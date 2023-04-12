@@ -26,7 +26,7 @@ const ViewContent = () =>{
             <div className='card-container'>
                 {dbData.map(item => (
                     <div key={item.id}>
-                        <ViewGalleryCard name={item.name} power={item.power} color={item.color} />
+                        <ViewGalleryCard id={item.id} name={item.name} power={item.power} color={item.color} />
                     </div>
                 ))}
             </div>

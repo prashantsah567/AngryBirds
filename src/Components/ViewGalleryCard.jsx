@@ -1,7 +1,9 @@
 import React from 'react';
 import './ViewGalleryCard.css';
+import {Link} from 'react-router-dom';
 
 const ViewGalleryCard = (props) =>{
+    const id = props.id;
 
     return(
         <div>
@@ -13,7 +15,9 @@ const ViewGalleryCard = (props) =>{
                 <h3>Name: {props.name}</h3>
                 <p>Power: {props.power}</p>
                 <br/>
-                <button className='editBtn'>Edit AngryBird</button>
+                <button className='editBtn'>
+                    <Link to={`/view-content/${id}/update-content`}>Edit AngryBird</Link>
+                </button>
             </div>
         </div>
     );
