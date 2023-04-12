@@ -11,14 +11,14 @@ Time spent: **20** hours spent in total
 The following **required** functionality is completed:
 
 - [x] **A create form allows users to add new angrybird**
-- [x] **Users can name the crewmate and set the angrybird's attributes by clicking on one of several values**
+- [x] **Users can name the angrybird and set the angrybird's attributes by clicking on one of several values**
 - [x] **The site displays a summary page of all the user's added angrybird**
-- [x] **A previously created crewmate can be updated and deleted from the angrybird list**
+- [x] **A previously created angrybird can be updated and deleted from the angrybird list**
 - [x] **Each angrybird has a direct, unique link to an info page about them**
 
 The following **optional** features are implemented:
 
-- [x] The site displays summary statistics about a user's crew on their crew page 
+- [x] The site displays summary statistics about a user's on their Gallery page
 
 ## GIF Walkthrough
 
