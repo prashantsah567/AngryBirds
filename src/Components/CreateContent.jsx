@@ -31,7 +31,6 @@ const CreateContent = () =>{
             console.error(error);
             return;
         }
-        console.log(data);
     }
 
     return(

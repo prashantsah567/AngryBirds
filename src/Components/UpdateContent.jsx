@@ -34,7 +34,6 @@ const UpdateContent = () =>{
             console.error(error);
             return;
         }else{
-            console.log(`Row with id ${id} has been updated successfully!`);
             alert(`Row with id ${id} has been updated successfully!`);
         }
     }
@@ -45,7 +44,6 @@ const UpdateContent = () =>{
         if (error) {
             console.log(error);
         } else {
-            console.log(`Row with id ${id} has been deleted successfully!`);
             alert(`Row with id ${id} has been deleted successfully!`);
         }
     }
